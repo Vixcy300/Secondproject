@@ -1,5 +1,5 @@
-// Base API URL — uses VITE_API_BASE_URL in production (e.g. Vercel) or defaults to local backend
-export const API_BASE = (import.meta.env.VITE_API_BASE_URL || "http://localhost:8000") + "/api/v1";
+// Base API URL — change if backend runs on a different port
+export const API_BASE = "http://localhost:8000/api/v1";
 
 // ─── Types matching the backend schemas ────────────────────────────────────
 
